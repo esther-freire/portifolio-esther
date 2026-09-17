@@ -7,10 +7,9 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Portifólio | Esther Freire</title>
+    <title>Portfólio | Esther Freire</title>
 
     <link rel="stylesheet" href="style.css">
-
 
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
@@ -19,39 +18,65 @@
 
 <body>
 
-
     <header class="cabecalho">
 
         <div class="logo">
-            PORTIFÓLIO
+            PORTFÓLIO
         </div>
 
 
-        
-        <button class="botao-menu" id="botaoMenu">
-            ☰
-        </button>
+        <div class="acoes-cabecalho">
+
+    
+            <button
+                class="botao-tema"
+                id="botaoTema"
+                type="button"
+                aria-label="Ativar tema claro"
+                title="Alterar tema">
+
+                ☀️
+
+            </button>
 
 
-        <nav class="menu" id="menu">
+            <button
+                class="botao-menu"
+                id="botaoMenu"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="menu">
 
-            <a href="#inicio">
+                ☰
+
+            </button>
+
+        </div>
+
+
+        <nav
+            class="menu"
+            id="menu"
+            aria-label="Navegação principal">
+
+            <a href="#inicio" class="link-menu ativo">
                 Início
             </a>
 
-            <a href="#sobre">
+            <a href="#sobre" class="link-menu">
                 Sobre
             </a>
 
-            <a href="#projetos">
+            <a href="#projetos" class="link-menu">
                 Projetos
             </a>
 
-            <a href="#habilidades">
+            <a href="#habilidades" class="link-menu">
                 Habilidades
             </a>
 
-            <a href="#contato">
+            <a href="#contato" class="link-menu">
                 Contato
             </a>
 
@@ -64,7 +89,9 @@
     <main>
 
 
-        <section id="inicio" class="inicio">
+        <section
+            id="inicio"
+            class="inicio">
 
             <div class="inicio-texto">
 
@@ -94,18 +121,18 @@
 
             <div class="personagem">
 
-                
-                <img src="desenho.png"
-                     alt="Ilustração de Esther">
+                <img
+                    src="desenho.png"
+                    alt="Ilustração de Esther">
 
             </div>
 
         </section>
 
 
-
-
-        <section id="sobre" class="sobre">
+        <section
+            id="sobre"
+            class="sobre">
 
             <div class="tv">
 
@@ -114,8 +141,9 @@
 
                     <div class="foto-sobre">
 
-                        <img src="/minha foto.jpeg"
-                             alt="Foto de Esther">
+                        <img
+                            src="/minha foto.jpeg"
+                            alt="Foto de Esther">
 
                     </div>
 
@@ -168,10 +196,9 @@
         </section>
 
 
-
-       
-
-        <section id="projetos" class="projetos">
+        <section
+            id="projetos"
+            class="projetos">
 
 
             <div class="titulo-secao">
@@ -180,9 +207,11 @@
                     PROJETOS
                 </h2>
 
-                <a href="https://github.com/esther-freire"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                <a
+                    href="https://github.com/esther-freire"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Abrir meu GitHub em uma nova aba">
 
                     Ver GitHub ❯
 
@@ -195,12 +224,11 @@
             <div class="cards-projetos">
 
 
-               
-
                 <article class="card-projeto">
 
-                    <img src="numero secreto.png"
-                         alt="Imagem do projeto Jogo do número secreto">
+                    <img
+                        src="numero secreto.png"
+                        alt="Imagem do projeto Jogo do Número Secreto">
 
 
                     <div class="card-conteudo">
@@ -211,33 +239,27 @@
 
 
                         <p>
-                            Sistema de jogo que gera um número aleatório e registra a quantidade de tentativas até o acerto.
+                            Sistema de jogo que gera um número aleatório
+                            e registra a quantidade de tentativas até o acerto.
                         </p>
 
 
                         <div class="tags">
 
-                            <span>
-                                HTML
-                            </span>
-
-                            <span>
-                                CSS
-                            </span>
-
-                            <span>
-                                JS
-                            </span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
 
                         </div>
 
 
-                        <a href="/numero-secreto/index.html"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="botao-github">
+                        <a
+                            href="numero-secreto/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="botao-github">
 
-                             VER PROJETO
+                            VER PROJETO
 
                         </a>
 
@@ -247,12 +269,11 @@
 
 
 
-                
-
                 <article class="card-projeto">
 
-                    <img src="Fokusl.png"
-                         alt="Imagem do projeto Fokus">
+                    <img
+                        src="Fokusl.png"
+                        alt="Imagem do projeto Fokus">
 
 
                     <div class="card-conteudo">
@@ -263,33 +284,28 @@
 
 
                         <p>
-                           Sistema de controle de metodos de estudos que ultiliza o metodo pomodoro, que divide entre o tempo de foco e descanso.
+                            Sistema de controle de métodos de estudos que
+                            utiliza o método Pomodoro, dividindo o tempo
+                            entre foco e descanso.
                         </p>
 
 
                         <div class="tags">
 
-                            <span>
-                                HTML
-                            </span>
-
-                            <span>
-                                CSS
-                            </span>
-
-                            <span>
-                                JS
-                            </span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
 
                         </div>
 
 
-                        <a href="/projeto-Fokus/index.html"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="botao-github">
+                        <a
+                            href="projeto-Fokus/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="botao-github">
 
-                             VER PROJETO
+                            VER PROJETO
 
                         </a>
 
@@ -299,12 +315,11 @@
 
 
 
-                
-
                 <article class="card-projeto">
 
-                    <img src="meu portifolio.png"
-                         alt="Imagem do projeto Meu Portifólio">
+                    <img
+                        src="meu portifolio.png"
+                        alt="Imagem do projeto Meu Portfólio">
 
 
                     <div class="card-conteudo">
@@ -315,34 +330,27 @@
 
 
                         <p>
-                             Meu próprio portfólio desenvolvido
+                            Meu próprio portfólio desenvolvido
                             utilizando HTML, CSS e JavaScript.
                         </p>
 
 
                         <div class="tags">
 
-                            <span>
-                                HTML
-                            </span>
-
-                            <span>
-                                CSS
-                            </span>
-
-                            <span>
-                                JS
-                            </span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
 
                         </div>
 
 
-                        <a href="index.html"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="botao-github">
+                        <a
+                            href="index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="botao-github">
 
-                             VER PROJETO
+                            VER PROJETO
 
                         </a>
 
@@ -350,95 +358,44 @@
 
                 </article>
 
+
+
                 <article class="card-projeto">
 
-                    <img src="assincrono.png"
-                         alt="Imagem do projeto Assincrono">
+                    <img
+                        src="assincrono.png"
+                        alt="Imagem do projeto Assíncrono">
 
 
                     <div class="card-conteudo">
 
                         <h3>
-                            Projeto Assincrono
+                            Projeto Assíncrono
                         </h3>
 
 
                         <p>
-                            Uma página de upload de arquivos que procura imagens do sistema e publica.
+                            Uma página de upload de arquivos que procura
+                            imagens do sistema e publica.
                         </p>
 
 
                         <div class="tags">
 
-                            <span>
-                                HTML
-                            </span>
-
-                            <span>
-                                CSS
-                            </span>
-
-                            <span>
-                                JS
-                            </span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
 
                         </div>
 
 
-                        <a href="assincrono/index.html"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="botao-github">
+                        <a
+                            href="assincrono/index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="botao-github">
 
-                             VER PROJETO
-
-                        </a>
-
-                    </div>
-
-                </article>
-
-                <article class="card-projeto">
-
-                    <img src="memoteca.png"
-                         alt="Imagem do projeto Memoteca">
-
-
-                    <div class="card-conteudo">
-
-                        <h3>
-                            Projeto Memoteca
-                        </h3>
-
-
-                        <p>
-                             Um projeto onde se registram memórias e pensamentos, utilizando o CRUD com JavaScript.
-                        </p>
-
-
-                        <div class="tags">
-
-                            <span>
-                                HTML
-                            </span>
-
-                            <span>
-                                CSS
-                            </span>
-
-                            <span>
-                                JS
-                            </span>
-
-                        </div>
-
-
-                        <a href="memoteca/index.html"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="botao-github">
-
-                             VER PROJETO
+                            VER PROJETO
 
                         </a>
 
@@ -452,170 +409,170 @@
         </section>
 
 
-
-        
-
-        <section id="habilidades" class="habilidades">
+        <section
+            id="habilidades"
+            class="habilidades">
 
             <h2>
                 HABILIDADES
             </h2>
 
 
-            <div class="barra-habilidades">
+            <div class="lista-habilidades">
 
 
-               
-
-                <div class="skill">
+                <article class="skill">
 
                     <div class="skill-titulo">
 
-                        <i class="devicon-html5-plain"></i>
+                        <i
+                            class="devicon-html5-plain"
+                            aria-hidden="true">
+                        </i>
 
-                        <strong>
+                        <h3>
                             HTML5
-                        </strong>
+                        </h3>
 
                     </div>
 
 
-                    <div class="barra">
+                    <p>
+                        Tenho conhecimentos básicos em HTML e sei estruturar páginas utilizando elementos semânticos,
+                         títulos, parágrafos, links, imagens, listas, formulários e organização de conteúdo.
+                    </p>
 
-                        <div class="progresso html"></div>
-
-                    </div>
-
-                </div>
-
+                </article>
 
 
-              
 
-                <div class="skill">
+                <article class="skill">
 
                     <div class="skill-titulo">
 
-                        <i class="devicon-css3-plain"></i>
+                        <i
+                            class="devicon-css3-plain"
+                            aria-hidden="true">
+                        </i>
 
-                        <strong>
+                        <h3>
                             CSS3
-                        </strong>
+                        </h3>
 
                     </div>
 
 
-                    <div class="barra">
+                    <p>
+                        Possuo conhecimentos básicos em CSS, trabalhando com cores, fontes, espaçamentos, bordas, posicionamento e organização de elementos. 
+                        Também tenho contato com Flexbox e Grid para criação de layouts.
+                    </p>
 
-                        <div class="progresso css"></div>
-
-                    </div>
-
-                </div>
-
+                </article>
 
 
-            
-                <div class="skill">
+
+                <article class="skill">
 
                     <div class="skill-titulo">
 
-                        <i class="devicon-javascript-plain"></i>
+                        <i
+                            class="devicon-javascript-plain"
+                            aria-hidden="true">
+                        </i>
 
-                        <strong>
+                        <h3>
                             JavaScript
-                        </strong>
+                        </h3>
 
                     </div>
 
 
-                    <div class="barra">
+                    <p>
+                        Tenho conhecimentos básicos em JavaScript e estou aprendendo a desenvolver interações para páginas web. 
+                        Sei trabalhar com variáveis, funções, condicionais, eventos, manipulação básica do DOM e interação entre HTML, CSS e JavaScript.
+                    </p>
 
-                        <div class="progresso js"></div>
-
-                    </div>
-
-                </div>
-
+                </article>
 
 
 
-                <div class="skill">
+                <article class="skill">
 
                     <div class="skill-titulo">
 
-                        <i class="devicon-git-plain"></i>
+                        <i
+                            class="devicon-git-plain"
+                            aria-hidden="true">
+                        </i>
 
-                        <strong>
+                        <h3>
                             Git
-                        </strong>
+                        </h3>
 
                     </div>
 
 
-                    <div class="barra">
+                    <p>
+                        Tenho conhecimentos básicos em Git, sabendo criar e inicializar repositórios, acompanhar alterações nos arquivos, 
+                        realizar commits e utilizar comandos básicos para controlar as versões dos meus projetos.
+                    </p>
 
-                        <div class="progresso git"></div>
-
-                    </div>
-
-                </div>
-
+                </article>
 
 
-                <div class="skill">
+
+                <article class="skill">
 
                     <div class="skill-titulo">
 
-                        <i class="devicon-github-original"></i>
+                        <i
+                            class="devicon-github-original"
+                            aria-hidden="true">
+                        </i>
 
-                        <strong>
+                        <h3>
                             GitHub
-                        </strong>
+                        </h3>
 
                     </div>
 
 
-                    <div class="barra">
+                    <p>
+                        Tenho conhecimentos básicos de GitHub, sabendo criar repositórios 
+                        e organizar meus projetos para compartilhá-los e apresentá-los em meu portfólio.
+                    </p>
 
-                        <div class="progresso github"></div>
-
-                    </div>
-
-                </div>
-
+                </article>
 
 
 
-                <div class="skill">
+                <article class="skill">
 
                     <div class="skill-titulo">
 
-                        <span class="icone-responsivo">
+                        <span
+                            class="icone-responsivo"
+                            aria-hidden="true">
                             📱
                         </span>
 
-                        <strong>
+                        <h3>
                             Design Responsivo
-                        </strong>
+                        </h3>
 
                     </div>
 
 
-                    <div class="barra">
+                    <p>
+                        Tenho conhecimentos básicos em desenvolvimento responsivo e sei adaptar layouts para diferentes tamanhos de tela.
+                    </p>
 
-                        <div class="progresso design"></div>
-
-                    </div>
-
-                </div>
+                </article>
 
 
             </div>
 
         </section>
-
-
 
 
         <section class="gostos">
@@ -627,9 +584,9 @@
                 </h2>
 
                 <p>
-                    Além de programação, gosto de esportes  e de acompanhar diferentes competições, 
-                    de ouvir música e tocar violão, e 
-                    quando estou com disposição gosto de cozinhar.
+                    Além de programação, gosto de esportes e de acompanhar
+                    diferentes competições, de ouvir música e tocar violão,
+                    e quando estou com disposição gosto de cozinhar.
                 </p>
 
             </div>
@@ -637,51 +594,44 @@
 
             <div class="esportes">
 
-
                 <div class="esporte">
                     ⚽
                     <span>Futebol</span>
                 </div>
-
 
                 <div class="esporte">
                     🏐
                     <span>Vôlei</span>
                 </div>
 
-
                 <div class="esporte">
                     👩‍🍳
                     <span>Cozinhar</span>
                 </div>
-
 
                 <div class="esporte">
                     🎵
                     <span>Música</span>
                 </div>
 
-
                 <div class="esporte">
                     🎾
                     <span>Tênis</span>
                 </div>
-
 
                 <div class="esporte">
                     🎸
                     <span>Violão</span>
                 </div>
 
-
             </div>
 
         </section>
 
 
-
-
-        <section id="contato" class="contato">
+        <section
+            id="contato"
+            class="contato">
 
 
             <p class="mini-titulo">
@@ -704,12 +654,16 @@
             <div class="links-contato">
 
 
+                <a
+                    href="https://github.com/esther-freire"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub de Esther">
 
-                <a href="https://github.com/esther-freire"
-                   target="_blank"
-                   rel="noopener noreferrer">
-
-                    <i class="devicon-github-original"></i>
+                    <i
+                        class="devicon-github-original"
+                        aria-hidden="true">
+                    </i>
 
                     <span>
                         GitHub
@@ -719,12 +673,16 @@
 
 
 
+                <a
+                    href="https://www.linkedin.com/in/esther-freire-3863ba374?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn de Esther">
 
-                <a href="https://www.linkedin.com/in/esther-freire-3863ba374?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-                   target="_blank"
-                   rel="noopener noreferrer">
-
-                    <i class="devicon-linkedin-plain"></i>
+                    <i
+                        class="devicon-linkedin-plain"
+                        aria-hidden="true">
+                    </i>
 
                     <span>
                         LinkedIn
@@ -734,8 +692,9 @@
 
 
 
-
-                <a href="mailto:estherfreire014@gmail.com">
+                <a
+                    href="mailto:estherfreire014@gmail.com"
+                    aria-label="Enviar e-mail para Esther">
 
                     📧
 
@@ -747,10 +706,11 @@
 
 
 
-
-                <a href="https://wa.me/5598984153381"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                <a
+                    href="https://wa.me/5598984153381"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Entrar em contato com Esther pelo WhatsApp">
 
                     📱
 
@@ -767,6 +727,8 @@
 
     </main>
 
+
+
     <footer>
 
         <p>
@@ -778,7 +740,7 @@
         </p>
 
     </footer>
-
+    
 
     <script src="script.js"></script>
 
